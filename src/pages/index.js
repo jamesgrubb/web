@@ -4,7 +4,6 @@ import {ThemeProvider} from 'styled-components'
 import Layout from '../../componemts/Layout'
 import GlobalStyles from "../../GlobalStyles"
 import Test from '../../componemts/Tests';
-import J from "../../componemts/Svg"
 // import {graphql} from 'gatsby'
 
 export default () => {
@@ -13,7 +12,6 @@ export default () => {
    <ThemeProvider theme={theme}>
    <>
    <GlobalStyles/>
-   <J/>
     <Layout>
       
     <Test />
