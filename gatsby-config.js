@@ -8,7 +8,11 @@ require('dotenv').config()
 module.exports = {
   /* Your site config here */
   plugins:[
-    'gatsby-plugin-styled-components',
+    {resolve: 'gatsby-plugin-styled-components',
+    options: {
+      displayName: false
+    },
+  },
     {resolve: `gatsby-source-sanity`,
     options: {
       projectId: process.env.SANITY_ID,
