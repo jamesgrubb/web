@@ -20,7 +20,7 @@ exports.handler = async (event) => {
 
     await page.goto(pageToScreenshot, { waitUntil: 'networkidle2' });
 
-    const pdf = await page.pdf({ format: 'A4' });
+    const pdf = await page.pdf({ format: 'A4', path: 'page.pdf' });
 
     await browser.close();
   
