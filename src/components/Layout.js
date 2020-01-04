@@ -21,10 +21,10 @@ const Header = styled.header`
 ${grid}
 border: 1px solid red;
 grid-column: 1 / -1;
-grid-row: 1 / -1
+grid-row: 1 / -1;
 `
 const Address = styled.ol`
-color: ${({theme})=> theme.colors.neutrals[1]}
+color: ${({theme})=> theme.colors.neutrals[1]};
 margin: 0;
 padding: 0;
 grid-column: 2 / span 2;

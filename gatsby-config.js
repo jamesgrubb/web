@@ -12,9 +12,9 @@ module.exports = {
     options: {
       projectId: process.env.SANITY_ID,
       dataset: 'production',
-      // watchMode: true,
-      // overlayDrafts: true,
-      // token: process.env.SANITY_TOKEN
+      watchMode: true,
+      overlayDrafts: true,
+      token: process.env.SANITY_TOKEN
 
     }  
   }

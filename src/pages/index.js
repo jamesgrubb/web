@@ -1,19 +1,21 @@
 import React from "react"
 import theme from '../../theme'
 import {ThemeProvider} from 'styled-components'
-import Layout from '../../componemts/Layout'
+import Layout from '../components/Layout'
 import GlobalStyles from "../../GlobalStyles"
-import Test from '../../componemts/Tests';
+import Test from '../components/Tests';
 // import {graphql} from 'gatsby'
-
+import MakePDF from '../components/MakePDF'
 export default () => {
     
+
     return(
    <ThemeProvider theme={theme}>
    <>
    <GlobalStyles/>
-    <Layout>
-      
+    <Layout >
+      <MakePDF />
+    
     <Test />
     </Layout>
 </>

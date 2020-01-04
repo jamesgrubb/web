@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import React from 'react'
 import { color, space, fontSize, compose } from 'styled-system'
 
 const Button = styled.button`
